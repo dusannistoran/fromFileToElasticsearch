@@ -101,7 +101,7 @@ object FromFileToElasticsearch {
   def main(args: Array[String]): Unit = {
 
     val file = s"/home/dule/intellijProjects/part6/fromFileToElasticsearch" +
-      "/src/main/resources/titles.tsv"
+      "/src/main/resources/titlesTest.tsv"
     val topic = "spark-titles-topic"
     val brokers = "localhost:9092"
 
